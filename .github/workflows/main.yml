@@ -3,7 +3,7 @@ on:
   push: 
    branches: 
     - main  # Runs only when pushing to the main branch 
- workflow_dispatch:  # Allows manual trigger 
+  workflow_dispatch:  # Allows manual trigger 
 
 jobs: 
  post_json: 
